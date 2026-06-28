@@ -20,10 +20,11 @@
 | --- | --- | --- |
 | Codex Buddy | [`pets/original/codex-buddy`](./pets/original/codex-buddy) | 健身小人 chibi 桌宠 |
 | Luffy | [`pets/one-piece/luffy`](./pets/one-piece/luffy) | 路飞，橡胶动作和冒险表情 |
-| Chopper | [`pets/one-piece/chopper`](./pets/one-piece/chopper) | 乔巴，害羞医生动作 |
 | Zoro | [`pets/one-piece/zoro`](./pets/one-piece/zoro) | 索隆，三刀流和迷路反应 |
-| Nami | [`pets/one-piece/nami`](./pets/one-piece/nami) | 娜美，天候棒和航海士动作 |
 | Sanji | [`pets/one-piece/sanji`](./pets/one-piece/sanji) | 山治，西装踢技和优雅等待 |
+| Nami | [`pets/one-piece/nami`](./pets/one-piece/nami) | 娜美，天候棒和航海士动作 |
+| Law | [`pets/one-piece/law`](./pets/one-piece/law) | 罗，斑点帽长刀和战术动作 |
+| Chopper | [`pets/one-piece/chopper`](./pets/one-piece/chopper) | 乔巴，害羞医生动作 |
 | Usopp | [`pets/one-piece/usopp`](./pets/one-piece/usopp) | 乌索普，弹弓瞄准和胆小反应 |
 
 ## 安装方式
@@ -50,6 +51,7 @@ cd codex-pet
 ./install.sh one-piece/chopper
 ./install.sh one-piece/nami
 ./install.sh one-piece/sanji
+./install.sh one-piece/law
 ./install.sh one-piece/usopp
 ./install.sh original/codex-buddy
 ```
@@ -99,6 +101,10 @@ pets/
       spritesheet.webp
       contact-sheet.png
     nami/
+      pet.json
+      spritesheet.webp
+      contact-sheet.png
+    law/
       pet.json
       spritesheet.webp
       contact-sheet.png
