@@ -24,6 +24,7 @@
 | Zoro | [`pets/one-piece/zoro`](./pets/one-piece/zoro) | 索隆，三刀流和迷路反应 |
 | Nami | [`pets/one-piece/nami`](./pets/one-piece/nami) | 娜美，天候棒和航海士动作 |
 | Sanji | [`pets/one-piece/sanji`](./pets/one-piece/sanji) | 山治，西装踢技和优雅等待 |
+| Usopp | [`pets/one-piece/usopp`](./pets/one-piece/usopp) | 乌索普，弹弓瞄准和胆小反应 |
 
 ## 安装方式
 
@@ -49,6 +50,7 @@ cd codex-pet
 ./install.sh one-piece/chopper
 ./install.sh one-piece/nami
 ./install.sh one-piece/sanji
+./install.sh one-piece/usopp
 ./install.sh original/codex-buddy
 ```
 
@@ -101,6 +103,10 @@ pets/
       spritesheet.webp
       contact-sheet.png
     sanji/
+      pet.json
+      spritesheet.webp
+      contact-sheet.png
+    usopp/
       pet.json
       spritesheet.webp
       contact-sheet.png
