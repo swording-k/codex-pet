@@ -12,6 +12,7 @@
 | Nami | [`nami`](./nami) | 天候棒、航海士等待、地图审视 |
 | Law | [`law`](./law) | 长刀小跑、战术拔刀、冷静审视 |
 | Robin | [`robin`](./robin) | 优雅快步、交叉手势、冷静审视 |
+| Ace | [`ace`](./ace) | 活力小跑、贴拳火焰、得意审视 |
 | Chopper | [`chopper`](./chopper) | 小鹿跳、害羞、医生包检查 |
 | Usopp | [`usopp`](./usopp) | 弹弓瞄准、胆小恢复、得意审视 |
 
@@ -32,6 +33,7 @@
 ./install.sh one-piece/nami
 ./install.sh one-piece/law
 ./install.sh one-piece/robin
+./install.sh one-piece/ace
 ./install.sh one-piece/chopper
 ./install.sh one-piece/usopp
 ```
