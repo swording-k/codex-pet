@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | Luffy | [`luffy`](./luffy) | 橡胶跑、橡胶跳、橡胶拳、眺望 |
 | Chopper | [`chopper`](./chopper) | 小鹿跳、害羞、医生包检查 |
+| Zoro | [`zoro`](./zoro) | 三刀流、拔刀训练、迷路反应 |
 
 ## 安装
 
@@ -22,4 +23,5 @@
 ```bash
 ./install.sh one-piece/luffy
 ./install.sh one-piece/chopper
+./install.sh one-piece/zoro
 ```

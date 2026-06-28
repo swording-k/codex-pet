@@ -21,6 +21,7 @@
 | Codex Buddy | [`pets/original/codex-buddy`](./pets/original/codex-buddy) | 健身小人 chibi 桌宠 |
 | Luffy | [`pets/one-piece/luffy`](./pets/one-piece/luffy) | 路飞，橡胶动作和冒险表情 |
 | Chopper | [`pets/one-piece/chopper`](./pets/one-piece/chopper) | 乔巴，害羞医生动作 |
+| Zoro | [`pets/one-piece/zoro`](./pets/one-piece/zoro) | 索隆，三刀流和迷路反应 |
 
 ## 安装方式
 
@@ -84,6 +85,10 @@ pets/
       spritesheet.webp
       contact-sheet.png
     chopper/
+      pet.json
+      spritesheet.webp
+      contact-sheet.png
+    zoro/
       pet.json
       spritesheet.webp
       contact-sheet.png
