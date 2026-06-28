@@ -9,6 +9,7 @@
 | Luffy | [`luffy`](./luffy) | 橡胶跑、橡胶跳、橡胶拳、眺望 |
 | Chopper | [`chopper`](./chopper) | 小鹿跳、害羞、医生包检查 |
 | Zoro | [`zoro`](./zoro) | 三刀流、拔刀训练、迷路反应 |
+| Nami | [`nami`](./nami) | 天候棒、航海士等待、地图审视 |
 
 ## 安装
 
@@ -24,4 +25,5 @@
 ./install.sh one-piece/luffy
 ./install.sh one-piece/chopper
 ./install.sh one-piece/zoro
+./install.sh one-piece/nami
 ```
