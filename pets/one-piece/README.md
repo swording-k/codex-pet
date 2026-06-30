@@ -14,6 +14,7 @@
 | Robin | [`robin`](./robin) | 优雅快步、交叉手势、冷静审视 |
 | Ace | [`ace`](./ace) | 活力小跑、贴拳火焰、得意审视 |
 | Shanks | [`shanks`](./shanks) | 披风小跑、拔剑指令、船长审视 |
+| Uta | [`uta`](./uta) | 轻快舞步、原地唱跳、聆听审视 |
 | Chopper | [`chopper`](./chopper) | 小鹿跳、害羞、医生包检查 |
 | Usopp | [`usopp`](./usopp) | 弹弓瞄准、胆小恢复、得意审视 |
 
@@ -36,6 +37,7 @@
 ./install.sh one-piece/robin
 ./install.sh one-piece/ace
 ./install.sh one-piece/shanks
+./install.sh one-piece/uta
 ./install.sh one-piece/chopper
 ./install.sh one-piece/usopp
 ```
