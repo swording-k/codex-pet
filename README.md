@@ -26,6 +26,7 @@
 | Law | [`pets/one-piece/law`](./pets/one-piece/law) | 罗，斑点帽长刀和战术动作 |
 | Robin | [`pets/one-piece/robin`](./pets/one-piece/robin) | 罗宾，优雅手势和冷静审视 |
 | Ace | [`pets/one-piece/ace`](./pets/one-piece/ace) | 艾斯，火拳和自信招手 |
+| Shanks | [`pets/one-piece/shanks`](./pets/one-piece/shanks) | 香克斯，披风剑势和船长指令 |
 | Chopper | [`pets/one-piece/chopper`](./pets/one-piece/chopper) | 乔巴，害羞医生动作 |
 | Usopp | [`pets/one-piece/usopp`](./pets/one-piece/usopp) | 乌索普，弹弓瞄准和胆小反应 |
 
@@ -56,6 +57,7 @@ cd codex-pet
 ./install.sh one-piece/law
 ./install.sh one-piece/robin
 ./install.sh one-piece/ace
+./install.sh one-piece/shanks
 ./install.sh one-piece/usopp
 ./install.sh original/codex-buddy
 ```
@@ -96,11 +98,11 @@ pets/
       pet.json
       spritesheet.webp
       contact-sheet.png
-    chopper/
+    zoro/
       pet.json
       spritesheet.webp
       contact-sheet.png
-    zoro/
+    sanji/
       pet.json
       spritesheet.webp
       contact-sheet.png
@@ -120,7 +122,11 @@ pets/
       pet.json
       spritesheet.webp
       contact-sheet.png
-    sanji/
+    shanks/
+      pet.json
+      spritesheet.webp
+      contact-sheet.png
+    chopper/
       pet.json
       spritesheet.webp
       contact-sheet.png
