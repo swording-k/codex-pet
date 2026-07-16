@@ -1,0 +1,6 @@
+{
+  "id": "spongebob",
+  "displayName": "SpongeBob",
+  "description": "A SpongeBob Codex desktop pet with square sponge body, big grin, spatula work loop, and bouncy cartoon states.",
+  "spritesheetPath": "spritesheet.webp"
+}
