@@ -13,7 +13,6 @@
 | --- | --- | --- |
 | Original | [`pets/original`](./pets/original) | 原创桌宠 |
 | One Piece | [`pets/one-piece`](./pets/one-piece) | 海贼王角色桌宠 |
-| SpongeBob | [`pets/spongebob`](./pets/spongebob) | 海绵宝宝主题桌宠 |
 
 ## 当前桌宠
 
@@ -31,11 +30,6 @@
 | Uta | [`pets/one-piece/uta`](./pets/one-piece/uta) | 乌塔，唱跳舞步和聆听审视 |
 | Chopper | [`pets/one-piece/chopper`](./pets/one-piece/chopper) | 乔巴，害羞医生动作 |
 | Usopp | [`pets/one-piece/usopp`](./pets/one-piece/usopp) | 乌索普，弹弓瞄准和胆小反应 |
-| SpongeBob | [`pets/spongebob/spongebob`](./pets/spongebob/spongebob) | 方形海绵身体、灿烂表情和铲子工作循环 |
-| Mr. Krabs | [`pets/spongebob/mr-krabs`](./pets/spongebob/mr-krabs) | 红色蟹钳、数钱工作循环和老板式反应 |
-| Plankton | [`pets/spongebob/plankton`](./pets/spongebob/plankton) | 单眼、触角、反派小手势和小装置动作 |
-| Patrick | [`pets/spongebob/patrick`](./pets/spongebob/patrick) | 粉色海星身体、犯困表情和傻乎乎跳跃 |
-| Squidward | [`pets/spongebob/squidward`](./pets/spongebob/squidward) | 长鼻子、厌世表情和单簧管工作循环 |
 
 ## 安装方式
 
@@ -52,7 +46,6 @@ cd codex-pet
 ```bash
 ./install.sh one-piece
 ./install.sh original
-./install.sh spongebob
 ```
 
 ### 安装单个桌宠
@@ -69,11 +62,6 @@ cd codex-pet
 ./install.sh one-piece/uta
 ./install.sh one-piece/usopp
 ./install.sh original/codex-buddy
-./install.sh spongebob/spongebob
-./install.sh spongebob/mr-krabs
-./install.sh spongebob/plankton
-./install.sh spongebob/patrick
-./install.sh spongebob/squidward
 ```
 
 安装后重启 Codex，让它重新读取 `~/.codex/pets`。
@@ -149,27 +137,6 @@ pets/
       spritesheet.webp
       contact-sheet.png
     usopp/
-      pet.json
-      spritesheet.webp
-      contact-sheet.png
-  spongebob/
-    spongebob/
-      pet.json
-      spritesheet.webp
-      contact-sheet.png
-    mr-krabs/
-      pet.json
-      spritesheet.webp
-      contact-sheet.png
-    plankton/
-      pet.json
-      spritesheet.webp
-      contact-sheet.png
-    patrick/
-      pet.json
-      spritesheet.webp
-      contact-sheet.png
-    squidward/
       pet.json
       spritesheet.webp
       contact-sheet.png
