@@ -13,6 +13,7 @@
 | --- | --- | --- |
 | Original | [`pets/original`](./pets/original) | 原创桌宠 |
 | One Piece | [`pets/one-piece`](./pets/one-piece) | 海贼王角色桌宠 |
+| SpongeBob | [`pets/spongebob`](./pets/spongebob) | 海绵宝宝系列 V2 桌宠 |
 
 ## 当前桌宠
 
@@ -30,6 +31,11 @@
 | Uta | [`pets/one-piece/uta`](./pets/one-piece/uta) | 乌塔，唱跳舞步和聆听审视 |
 | Chopper | [`pets/one-piece/chopper`](./pets/one-piece/chopper) | 乔巴，害羞医生动作 |
 | Usopp | [`pets/one-piece/usopp`](./pets/one-piece/usopp) | 乌索普，弹弓瞄准和胆小反应 |
+| SpongeBob | [`pets/spongebob/spongebob`](./pets/spongebob/spongebob) | 方形黄色海底角色风格 V2 桌宠 |
+| Patrick | [`pets/spongebob/patrick`](./pets/spongebob/patrick) | 粉色海星风格 V2 桌宠 |
+| Mr. Krabs | [`pets/spongebob/mr-krabs`](./pets/spongebob/mr-krabs) | 红色螃蟹风格 V2 桌宠 |
+| Plankton | [`pets/spongebob/plankton`](./pets/spongebob/plankton) | 绿色单眼小反派风格 V2 桌宠 |
+| Squidward | [`pets/spongebob/squidward`](./pets/spongebob/squidward) | 青绿色章鱼邻居风格 V2 桌宠 |
 
 ## 安装方式
 
@@ -46,6 +52,7 @@ cd codex-pet
 ```bash
 ./install.sh one-piece
 ./install.sh original
+./install.sh spongebob
 ```
 
 ### 安装单个桌宠
@@ -62,6 +69,11 @@ cd codex-pet
 ./install.sh one-piece/uta
 ./install.sh one-piece/usopp
 ./install.sh original/codex-buddy
+./install.sh spongebob/spongebob
+./install.sh spongebob/patrick
+./install.sh spongebob/mr-krabs
+./install.sh spongebob/plankton
+./install.sh spongebob/squidward
 ```
 
 安装后重启 Codex，让它重新读取 `~/.codex/pets`。
@@ -137,6 +149,27 @@ pets/
       spritesheet.webp
       contact-sheet.png
     usopp/
+      pet.json
+      spritesheet.webp
+      contact-sheet.png
+  spongebob/
+    spongebob/
+      pet.json
+      spritesheet.webp
+      contact-sheet.png
+    patrick/
+      pet.json
+      spritesheet.webp
+      contact-sheet.png
+    mr-krabs/
+      pet.json
+      spritesheet.webp
+      contact-sheet.png
+    plankton/
+      pet.json
+      spritesheet.webp
+      contact-sheet.png
+    squidward/
       pet.json
       spritesheet.webp
       contact-sheet.png

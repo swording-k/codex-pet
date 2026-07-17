@@ -1,0 +1,32 @@
+{
+  "petId": "squidward",
+  "displayName": "Squidward",
+  "publishedPath": "pets/spongebob/squidward",
+  "generator": "generate_undersea_fan_pet.py",
+  "identityStrategy": "deterministic vector model shared across all animation states",
+  "atlasValidation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "publishedValidation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "installedValidation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "lookContinuity": {
+    "ok": true,
+    "reviewRequired": false,
+    "warnings": [],
+    "warningCount": 0
+  },
+  "qaArtifacts": {
+    "contactSheet": "/Users/baojian/Desktop/codex-pet/work/v2-runs/spongebob-series/squidward/qa/contact-sheet-extended.png",
+    "lookDirections": "/Users/baojian/Desktop/codex-pet/work/v2-runs/spongebob-series/squidward/qa/look-directions.png"
+  }
+}

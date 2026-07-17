@@ -1,0 +1,37 @@
+{
+  "petId": "patrick",
+  "displayName": "Patrick",
+  "publishedPath": "pets/spongebob/patrick",
+  "generator": "generate_undersea_fan_pet.py",
+  "identityStrategy": "deterministic vector model shared across all animation states",
+  "atlasValidation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "publishedValidation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "installedValidation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "lookContinuity": {
+    "ok": true,
+    "reviewRequired": true,
+    "warnings": [
+      "000 has transparent interior hole rows (y=102, y=103, y=104, y=105, +18 more)",
+      "022.5 has transparent interior hole rows (y=102, y=103, y=104, y=105, +18 more)",
+      "045 has transparent interior hole rows (y=102, y=103, y=104, y=105, +18 more)",
+      "067.5 has transparent interior hole rows (y=102, y=103, y=104, y=105, +18 more)"
+    ],
+    "warningCount": 16
+  },
+  "qaArtifacts": {
+    "contactSheet": "/Users/baojian/Desktop/codex-pet/work/v2-runs/spongebob-series/patrick/qa/contact-sheet-extended.png",
+    "lookDirections": "/Users/baojian/Desktop/codex-pet/work/v2-runs/spongebob-series/patrick/qa/look-directions.png"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "petId": "mr-krabs",
+  "displayName": "Mr. Krabs",
+  "publishedPath": "pets/spongebob/mr-krabs",
+  "generator": "generate_undersea_fan_pet.py",
+  "identityStrategy": "deterministic vector model shared across all animation states",
+  "atlasValidation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "publishedValidation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "installedValidation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "lookContinuity": {
+    "ok": true,
+    "reviewRequired": true,
+    "warnings": [
+      "000 has transparent interior hole rows (y=114, y=115, y=116)",
+      "022.5 has transparent interior hole rows (y=114, y=115, y=116)",
+      "045 has transparent interior hole rows (y=114, y=115, y=116)",
+      "067.5 has transparent interior hole rows (y=114, y=115, y=116)"
+    ],
+    "warningCount": 16
+  },
+  "qaArtifacts": {
+    "contactSheet": "/Users/baojian/Desktop/codex-pet/work/v2-runs/spongebob-series/mr-krabs/qa/contact-sheet-extended.png",
+    "lookDirections": "/Users/baojian/Desktop/codex-pet/work/v2-runs/spongebob-series/mr-krabs/qa/look-directions.png"
+  }
+}

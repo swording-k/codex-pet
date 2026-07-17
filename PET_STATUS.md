@@ -15,11 +15,11 @@ This file tracks the requested end state: all SpongeBob series pets completed, a
 
 | Pet | Status | Notes |
 | --- | --- | --- |
-| SpongeBob | not started | Must be rebuilt from scratch. Rejected old local files are not allowed. |
-| Mr. Krabs | not started | Must be rebuilt from scratch. |
-| Plankton | not started | Must be rebuilt from scratch. |
-| Patrick | not started | Must be rebuilt from scratch. |
-| Squidward | not started | Must be rebuilt from scratch. |
+| SpongeBob | v2 | Published from a deterministic series generator; atlas validates as v2 and preserves identity across look directions. |
+| Mr. Krabs | v2 | Published from a deterministic series generator; atlas validates as v2. Direction QA has visual-review warnings from intentional eye-stalk gaps. |
+| Plankton | v2 | Published from a deterministic series generator; atlas validates as v2 and preserves identity across look directions. |
+| Patrick | v2 | Published from a deterministic series generator; atlas validates as v2. Direction QA has visual-review warnings from intentional body/shorts gaps. |
+| Squidward | v2 | Published from a deterministic series generator; atlas validates as v2 and preserves identity across look directions. |
 
 ## Existing Published Pets
 

@@ -1,0 +1,33 @@
+{
+  "generator": "generate_undersea_fan_pet.py",
+  "character": "mr-krabs",
+  "displayName": "Mr. Krabs",
+  "spriteVersionNumber": 2,
+  "size": {
+    "width": 1536,
+    "height": 2288
+  },
+  "cell": {
+    "width": 192,
+    "height": 208
+  },
+  "lookDirections": [
+    0,
+    22.5,
+    45,
+    67.5,
+    90,
+    112.5,
+    135,
+    157.5,
+    180,
+    202.5,
+    225,
+    247.5,
+    270,
+    292.5,
+    315,
+    337.5
+  ],
+  "identityStrategy": "deterministic vector model shared across all animation states"
+}
