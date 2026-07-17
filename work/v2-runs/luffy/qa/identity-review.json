@@ -1,0 +1,8 @@
+{
+  "petId": "luffy",
+  "reviewedAt": "2026-07-17",
+  "result": "fail",
+  "structuralV2": "pass",
+  "reason": "Look-direction frames are visibly taller, thinner, and rendered in a different style than the original neutral and standard animation frames.",
+  "decision": "Requires identity repair before it can count as upload-quality v2."
+}

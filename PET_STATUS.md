@@ -6,6 +6,7 @@ This file tracks the requested end state: all SpongeBob series pets completed, a
 
 - `v1`: published old-format pet.
 - `candidate`: generated work exists but is not publishable.
+- `identity-repair`: a prior v2 attempt exists, but it was not publishable because the added look-direction art did not match the original pet closely enough.
 - `v2`: published and validated Codex v2 pet.
 - `blocked`: cannot proceed without a viable source image or generation path.
 
@@ -24,8 +25,8 @@ This file tracks the requested end state: all SpongeBob series pets completed, a
 | Pet | Status | Notes |
 | --- | --- | --- |
 | Codex Buddy | v2 | Published atlas passes `validate_atlas.py --require-v2`; install path was validated. |
-| Luffy | v2 | Published atlas passes `validate_atlas.py --require-v2`; install path was validated. |
-| Zoro | v2 | Published atlas passes `validate_atlas.py --require-v2`; install path was validated. |
+| Luffy | identity-repair | Official pet restored to coherent v1; prior v2 attempt failed identity review and must be redone before upload-quality V2. |
+| Zoro | identity-repair | Official pet restored to coherent v1; prior v2 attempt failed identity review and must be redone before upload-quality V2. |
 | Sanji | v1 | Needs v2 look-direction upgrade. |
 | Nami | v1 | Needs v2 look-direction upgrade. |
 | Law | v1 | Needs v2 look-direction upgrade. |
