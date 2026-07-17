@@ -1,0 +1,18 @@
+{
+  "petId": "luffy",
+  "status": "v2-published-to-workspace",
+  "date": "2026-07-17",
+  "baseAtlas": "pets/one-piece/luffy/spritesheet.webp",
+  "workAtlas": "work/v2-runs/luffy/final/spritesheet-extended.webp",
+  "publishedAtlas": "pets/one-piece/luffy/spritesheet.webp",
+  "validation": "work/v2-runs/luffy/final/validation-extended.json",
+  "directionQa": "work/v2-runs/luffy/qa/look-directions.png",
+  "continuity": "work/v2-runs/luffy/qa/look-continuity.json",
+  "semanticReview": "work/v2-runs/luffy/qa/direction-semantics.json",
+  "notes": [
+    "Generated row-9 direction art from the contact-sheet reference.",
+    "Generated row-10 source art, retained the registered 180-degree down frame, and mirrored row-9 cells for reliable left-half direction semantics.",
+    "Assembled with scripts/assemble_v2_registered.py and despilled chroma edges.",
+    "Final atlas passes validate_atlas.py --require-v2."
+  ]
+}
