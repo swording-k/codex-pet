@@ -27,7 +27,7 @@ This file tracks the requested end state: all SpongeBob series pets completed, a
 | --- | --- | --- |
 | Codex Buddy | v2 | Published atlas passes `validate_atlas.py --require-v2`; install path was validated. |
 | Luffy | identity-candidate | Official pet remains coherent v1; `work/v2-runs/luffy-identity` has a structurally valid identity-preserving V2 candidate with direction warnings. |
-| Zoro | identity-repair | Official pet restored to coherent v1; prior v2 attempt failed identity review and must be redone before upload-quality V2. |
+| Zoro | identity-candidate | Official pet remains coherent v1; `work/v2-runs/zoro-identity` has a structurally valid identity-preserving V2 candidate with direction warnings. |
 | Sanji | v1 | Needs v2 look-direction upgrade. |
 | Nami | v1 | Needs v2 look-direction upgrade. |
 | Law | v1 | Needs v2 look-direction upgrade. |

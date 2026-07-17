@@ -1,0 +1,17 @@
+{
+  "petId": "zoro",
+  "status": "identity-first-v2-candidate",
+  "date": "2026-07-17",
+  "baseAtlas": "pets/one-piece/zoro/spritesheet.webp",
+  "workAtlas": "work/v2-runs/zoro-identity/final/spritesheet-extended.webp",
+  "validation": "work/v2-runs/zoro-identity/final/validation-extended.json",
+  "directionQa": "work/v2-runs/zoro-identity/qa/look-directions.png",
+  "continuity": "work/v2-runs/zoro-identity/qa/look-continuity.json",
+  "semanticReview": "work/v2-runs/zoro-identity/qa/direction-semantics.json",
+  "identityReview": "work/v2-runs/zoro/qa/identity-review.json",
+  "notes": [
+    "This run reuses original atlas cells instead of generated redraws.",
+    "The atlas passes validate_atlas.py --require-v2.",
+    "Identity is preserved, but several look directions are approximate action-pose substitutions and remain warnings."
+  ]
+}

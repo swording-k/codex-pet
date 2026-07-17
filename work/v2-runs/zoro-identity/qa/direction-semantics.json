@@ -1,0 +1,111 @@
+{
+  "petId": "zoro",
+  "reviewedAt": "2026-07-17",
+  "result": "candidate",
+  "strategy": "identity-first reuse of original atlas cells",
+  "identityVerdict": "pass",
+  "directionVerdict": "warning",
+  "notes": [
+    "All look-direction cells come from the original Zoro atlas, so the pet no longer changes into a different drawing style.",
+    "Several directions reuse running, crouching, sitting, or review poses rather than pure gaze-turn poses, so this is an identity-preserving V2 candidate rather than a final upload-quality pure turn animation.",
+    "This candidate is preferable to the prior generated V2 attempt because the original face, proportions, line work, palette, costume, and sword styling remain consistent."
+  ],
+  "directions": {
+    "000": {
+      "verdict": "warning",
+      "expected": "up",
+      "observed": "review pose with upward/rightward cue",
+      "reason": "Same original Zoro identity; upward cue is approximate."
+    },
+    "022.5": {
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "review pose with rightward cue",
+      "reason": "Same original identity; diagonal cue is approximate."
+    },
+    "045": {
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "right-facing original running pose",
+      "reason": "Original atlas frame reads screen-right and preserves identity."
+    },
+    "067.5": {
+      "verdict": "pass",
+      "expected": "mostly right",
+      "observed": "right-facing original running pose",
+      "reason": "Original atlas frame reads screen-right."
+    },
+    "090": {
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "clear right-facing original running pose",
+      "reason": "Right cardinal is readable and identity-preserving."
+    },
+    "112.5": {
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "right-facing compact action pose",
+      "reason": "Horizontal right axis is clear; down cue is pose-based and approximate."
+    },
+    "135": {
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "low crouched right-biased original pose",
+      "reason": "Direction is approximate but identity is intact."
+    },
+    "157.5": {
+      "verdict": "warning",
+      "expected": "mostly down-right",
+      "observed": "front/down original pose",
+      "reason": "Down cue is readable; right axis is weak."
+    },
+    "180": {
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "seated head-down original pose",
+      "reason": "Down cardinal is readable and identity-preserving."
+    },
+    "202.5": {
+      "verdict": "warning",
+      "expected": "mostly down-left",
+      "observed": "mirrored front/down original pose",
+      "reason": "Down cue is readable; left axis is weak."
+    },
+    "225": {
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "low crouched left-biased original pose",
+      "reason": "Direction is approximate but identity is intact."
+    },
+    "247.5": {
+      "verdict": "pass",
+      "expected": "mostly left",
+      "observed": "left-facing original running pose",
+      "reason": "Original atlas frame reads screen-left."
+    },
+    "270": {
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "clear left-facing original running pose",
+      "reason": "Left cardinal is readable and identity-preserving."
+    },
+    "292.5": {
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "left-facing original running pose",
+      "reason": "Left cue is clear; upward cue is subtle."
+    },
+    "315": {
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "review pose with leftward cue",
+      "reason": "Same original identity; diagonal cue is approximate."
+    },
+    "337.5": {
+      "verdict": "warning",
+      "expected": "mostly up-left",
+      "observed": "mirrored review pose",
+      "reason": "Same original identity; up-left cue is approximate."
+    }
+  }
+}
