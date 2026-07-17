@@ -1,0 +1,18 @@
+{
+  "petId": "codex-buddy",
+  "status": "v2-published-to-workspace",
+  "date": "2026-07-17",
+  "baseAtlas": "pets/original/codex-buddy/spritesheet.webp",
+  "workAtlas": "work/v2-runs/codex-buddy/final/spritesheet-extended.webp",
+  "publishedAtlas": "pets/original/codex-buddy/spritesheet.webp",
+  "validation": "work/v2-runs/codex-buddy/final/validation-extended.json",
+  "directionQa": "work/v2-runs/codex-buddy/qa/look-directions.png",
+  "continuity": "work/v2-runs/codex-buddy/qa/look-continuity.json",
+  "semanticReview": "work/v2-runs/codex-buddy/qa/direction-semantics.json",
+  "notes": [
+    "Generated cardinal and row-9 direction art with image references.",
+    "Replaced the generated row-10 left directions with mirrored row-9 cells after visual QA found right-facing drift.",
+    "Added the neutral look frame required by the v2 assembler at row 0 column 6.",
+    "Final atlas passes validate_atlas.py --require-v2."
+  ]
+}

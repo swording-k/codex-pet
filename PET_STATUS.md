@@ -23,7 +23,7 @@ This file tracks the requested end state: all SpongeBob series pets completed, a
 
 | Pet | Status | Notes |
 | --- | --- | --- |
-| Codex Buddy | v1 | Needs v2 look-direction upgrade. |
+| Codex Buddy | v2 | Published atlas passes `validate_atlas.py --require-v2`; install path was validated. |
 | Luffy | v1 | Needs v2 look-direction upgrade. |
 | Zoro | v1 | Needs v2 look-direction upgrade. |
 | Sanji | v1 | Needs v2 look-direction upgrade. |
@@ -35,4 +35,3 @@ This file tracks the requested end state: all SpongeBob series pets completed, a
 | Uta | v1 | Needs v2 look-direction upgrade. |
 | Chopper | v1 | Needs v2 look-direction upgrade. |
 | Usopp | v1 | Needs v2 look-direction upgrade. |
-

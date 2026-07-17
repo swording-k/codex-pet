@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "strip": "/Users/baojian/Desktop/codex-pet/work/v2-runs/codex-buddy/decoded/look-cardinals.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        498,
+        789
+      ],
+      "used_pixels": 107644,
+      "edge_pixels": 0,
+      "output": "/Users/baojian/Desktop/codex-pet/work/v2-runs/codex-buddy/decoded/look-anchors/000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        498,
+        0,
+        996,
+        789
+      ],
+      "used_pixels": 106909,
+      "edge_pixels": 0,
+      "output": "/Users/baojian/Desktop/codex-pet/work/v2-runs/codex-buddy/decoded/look-anchors/090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        996,
+        0,
+        1495,
+        789
+      ],
+      "used_pixels": 104956,
+      "edge_pixels": 0,
+      "output": "/Users/baojian/Desktop/codex-pet/work/v2-runs/codex-buddy/decoded/look-anchors/180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        1495,
+        0,
+        1993,
+        789
+      ],
+      "used_pixels": 105185,
+      "edge_pixels": 0,
+      "output": "/Users/baojian/Desktop/codex-pet/work/v2-runs/codex-buddy/decoded/look-anchors/270.png"
+    }
+  ]
+}
