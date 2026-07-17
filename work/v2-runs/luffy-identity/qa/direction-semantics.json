@@ -1,0 +1,111 @@
+{
+  "petId": "luffy",
+  "reviewedAt": "2026-07-17",
+  "result": "candidate",
+  "strategy": "identity-first reuse of original atlas cells",
+  "identityVerdict": "pass",
+  "directionVerdict": "warning",
+  "notes": [
+    "All look-direction cells come from the original Luffy atlas, so the pet no longer changes into a different drawing style.",
+    "Several directions reuse action poses rather than pure gaze-turn poses, so this is an identity-preserving V2 candidate rather than a final upload-quality pure turn animation.",
+    "This candidate is preferable to the prior generated V2 attempt because the original face, proportions, line work, palette, and costume remain consistent."
+  ],
+  "directions": {
+    "000": {
+      "verdict": "warning",
+      "expected": "up",
+      "observed": "front pose with upward/hat gesture cue",
+      "reason": "Same original Luffy identity; upward cue is approximate rather than a clean eye/head-only look."
+    },
+    "022.5": {
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "right-leaning original pose",
+      "reason": "Same original identity; diagonal cue is approximate."
+    },
+    "045": {
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "right-facing original running pose",
+      "reason": "Original atlas frame clearly reads toward screen-right."
+    },
+    "067.5": {
+      "verdict": "pass",
+      "expected": "mostly right and slightly up",
+      "observed": "right-facing original running pose",
+      "reason": "Original atlas frame reads screen-right with preserved identity."
+    },
+    "090": {
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "clear right-facing original running pose",
+      "reason": "Right cardinal is unmistakable and identity-preserving."
+    },
+    "112.5": {
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "right-facing running pose with lower body action",
+      "reason": "Horizontal axis is right; down cue is pose-based and approximate."
+    },
+    "135": {
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "right-facing action pose",
+      "reason": "Same original identity; diagonal down cue is approximate."
+    },
+    "157.5": {
+      "verdict": "warning",
+      "expected": "mostly down-right",
+      "observed": "front-down embarrassed original pose",
+      "reason": "Down cue is readable; horizontal right cue is weak."
+    },
+    "180": {
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "seated head-down original pose",
+      "reason": "Down cardinal is unmistakable and identity-preserving."
+    },
+    "202.5": {
+      "verdict": "warning",
+      "expected": "mostly down-left",
+      "observed": "mirrored front-down embarrassed pose",
+      "reason": "Down cue is readable; horizontal left cue is weak."
+    },
+    "225": {
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "left-running original pose",
+      "reason": "Horizontal axis is left; down cue is pose-based and approximate."
+    },
+    "247.5": {
+      "verdict": "pass",
+      "expected": "left with slight downward tilt",
+      "observed": "left-facing original running pose",
+      "reason": "Original atlas frame clearly reads screen-left."
+    },
+    "270": {
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "clear left-facing original running pose",
+      "reason": "Left cardinal is unmistakable and identity-preserving."
+    },
+    "292.5": {
+      "verdict": "pass",
+      "expected": "left with slight upward tilt",
+      "observed": "left-facing original running pose",
+      "reason": "Left cue is clear; upward cue is subtle."
+    },
+    "315": {
+      "verdict": "pass",
+      "expected": "diagonal up-left",
+      "observed": "left-facing original running pose",
+      "reason": "Original atlas frame reads screen-left and keeps identity."
+    },
+    "337.5": {
+      "verdict": "warning",
+      "expected": "mostly up-left",
+      "observed": "mirrored right-leaning review pose",
+      "reason": "Same original identity; up-left cue is approximate."
+    }
+  }
+}
