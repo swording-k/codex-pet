@@ -2,5 +2,6 @@
   "id": "usopp",
   "displayName": "Usopp",
   "description": "A chibi Usopp Codex desktop pet with long nose, goggles/headband, sling-shot poses, brave-but-nervous expressions, and lively animations.",
-  "spritesheetPath": "spritesheet.webp"
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2
 }

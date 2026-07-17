@@ -2,5 +2,6 @@
   "id": "ace",
   "displayName": "Ace",
   "description": "A chibi Portgas D. Ace Codex desktop pet with orange hat, freckles, shorts, beads, and compact fire-fist animations.",
-  "spritesheetPath": "spritesheet.webp"
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2
 }

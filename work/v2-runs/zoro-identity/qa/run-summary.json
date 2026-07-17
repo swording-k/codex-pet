@@ -1,17 +1,27 @@
 {
   "petId": "zoro",
-  "status": "identity-first-v2-candidate",
+  "status": "published-v2-identity-first",
   "date": "2026-07-17",
   "baseAtlas": "pets/one-piece/zoro/spritesheet.webp",
   "workAtlas": "work/v2-runs/zoro-identity/final/spritesheet-extended.webp",
-  "validation": "work/v2-runs/zoro-identity/final/validation-extended.json",
-  "directionQa": "work/v2-runs/zoro-identity/qa/look-directions.png",
-  "continuity": "work/v2-runs/zoro-identity/qa/look-continuity.json",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "chromaDespill": {
+    "ok": true,
+    "changedPixels": 190778
+  },
+  "continuity": {
+    "ok": true,
+    "reviewRequired": true,
+    "warningCount": 21
+  },
   "semanticReview": "work/v2-runs/zoro-identity/qa/direction-semantics.json",
-  "identityReview": "work/v2-runs/zoro/qa/identity-review.json",
   "notes": [
-    "This run reuses original atlas cells instead of generated redraws.",
-    "The atlas passes validate_atlas.py --require-v2.",
-    "Identity is preserved, but several look directions are approximate action-pose substitutions and remain warnings."
+    "Rows 0-8 are preserved from the official v1 pet.",
+    "Rows 9-10 reuse original cells for an identity-preserving V2 upgrade.",
+    "Atlas passes validate_atlas.py --require-v2 after deterministic despill."
   ]
 }

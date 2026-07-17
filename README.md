@@ -5,7 +5,7 @@
 - `pet.json`
 - `spritesheet.webp`
 
-`contact-sheet.png` 用于预览和检查动作。
+`contact-sheet.png` 用于预览和检查动作。所有正式发布的桌宠现在都使用 `spriteVersionNumber: 2` 的 V2 atlas。
 
 ## 桌宠分类
 

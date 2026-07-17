@@ -2,5 +2,6 @@
   "id": "robin",
   "displayName": "Robin",
   "description": "A chibi Nico Robin Codex desktop pet with black hair, elegant purple outfit, calm scholar expressions, and flower-hand inspired gestures.",
-  "spritesheetPath": "spritesheet.webp"
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2
 }

@@ -1,0 +1,142 @@
+{
+  "petId": "nami",
+  "reviewedAt": "2026-07-17",
+  "result": "published-v2",
+  "strategy": "identity-first reuse of original atlas cells",
+  "identityVerdict": "pass",
+  "directionVerdict": "warning",
+  "acceptedWarnings": [
+    "Look directions are compatibility cues assembled from original action poses, not pure newly generated head-turn animation.",
+    "This deliberately prioritizes identity consistency over generated turn fidelity to avoid the style drift previously rejected by the user."
+  ],
+  "directions": {
+    "000": {
+      "verdict": "warning",
+      "expected": "up",
+      "observed": "review pose with upward hat/face cue",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "022.5": {
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "right-leaning review pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "045": {
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "running-right side pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "067.5": {
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "running-right compact pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "090": {
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "clear right-facing run",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "112.5": {
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "right-facing low body pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "135": {
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "right-facing low body pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "157.5": {
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "front-down embarrassed pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "180": {
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "seated head-down pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "202.5": {
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "mirrored front-down embarrassed pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "225": {
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "running-left low body pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "247.5": {
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "running-left side pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "270": {
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "clear left-facing run",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "292.5": {
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "running-left side pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "315": {
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "running-left side pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    },
+    "337.5": {
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "mirrored right-leaning review pose",
+      "horizontalEvidence": "source cell preserves original character identity; horizontal axis is approximate except clear side-facing source poses",
+      "verticalEvidence": "vertical axis is represented by source pose family rather than newly drawn head-only gaze",
+      "reason": "Identity-first V2 upgrade: original atlas cell reused or mirrored; direction is accepted as an approximate compatibility cue without redraw drift."
+    }
+  }
+}

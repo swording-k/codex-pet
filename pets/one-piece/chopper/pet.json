@@ -2,5 +2,6 @@
   "id": "chopper",
   "displayName": "Chopper",
   "description": "A cute chibi Tony Tony Chopper Codex desktop pet with pink hat, antlers, blue nose, doctor bag, shy poses, and tiny transformation-style actions.",
-  "spritesheetPath": "spritesheet.webp"
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2
 }

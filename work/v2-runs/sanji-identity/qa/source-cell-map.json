@@ -1,0 +1,109 @@
+{
+  "petId": "sanji",
+  "strategy": "identity-first reuse of original atlas cells",
+  "notes": [
+    "Every look-direction cell is copied or mirrored from this pet's original v1 atlas.",
+    "This preserves the original pet identity and avoids generated redraw drift.",
+    "Some directions are semantic approximations because the source atlas contains action poses, not a complete turntable."
+  ],
+  "directions": {
+    "000": {
+      "row": 8,
+      "column": 0,
+      "expected": "up",
+      "sourceNote": "review pose with upward hat/face cue"
+    },
+    "022.5": {
+      "row": 8,
+      "column": 4,
+      "expected": "up-right",
+      "sourceNote": "right-leaning review pose"
+    },
+    "045": {
+      "row": 1,
+      "column": 0,
+      "expected": "up-right",
+      "sourceNote": "running-right side pose"
+    },
+    "067.5": {
+      "row": 1,
+      "column": 5,
+      "expected": "up-right/right",
+      "sourceNote": "running-right compact pose"
+    },
+    "090": {
+      "row": 1,
+      "column": 6,
+      "expected": "right",
+      "sourceNote": "clear right-facing run"
+    },
+    "112.5": {
+      "row": 1,
+      "column": 3,
+      "expected": "down-right",
+      "sourceNote": "right-facing low body pose"
+    },
+    "135": {
+      "row": 1,
+      "column": 4,
+      "expected": "down-right",
+      "sourceNote": "right-facing low body pose"
+    },
+    "157.5": {
+      "row": 5,
+      "column": 1,
+      "expected": "down-right",
+      "sourceNote": "front-down embarrassed pose"
+    },
+    "180": {
+      "row": 5,
+      "column": 4,
+      "expected": "down",
+      "sourceNote": "seated head-down pose"
+    },
+    "202.5": {
+      "row": 5,
+      "column": 1,
+      "flipX": true,
+      "expected": "down-left",
+      "sourceNote": "mirrored front-down embarrassed pose"
+    },
+    "225": {
+      "row": 2,
+      "column": 4,
+      "expected": "down-left",
+      "sourceNote": "running-left low body pose"
+    },
+    "247.5": {
+      "row": 2,
+      "column": 3,
+      "expected": "down-left/left",
+      "sourceNote": "running-left side pose"
+    },
+    "270": {
+      "row": 2,
+      "column": 5,
+      "expected": "left",
+      "sourceNote": "clear left-facing run"
+    },
+    "292.5": {
+      "row": 2,
+      "column": 6,
+      "expected": "up-left/left",
+      "sourceNote": "running-left side pose"
+    },
+    "315": {
+      "row": 2,
+      "column": 0,
+      "expected": "up-left",
+      "sourceNote": "running-left side pose"
+    },
+    "337.5": {
+      "row": 8,
+      "column": 4,
+      "flipX": true,
+      "expected": "up-left",
+      "sourceNote": "mirrored right-leaning review pose"
+    }
+  }
+}

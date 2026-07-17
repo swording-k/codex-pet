@@ -1,0 +1,27 @@
+{
+  "petId": "law",
+  "status": "published-v2-identity-first",
+  "date": "2026-07-17",
+  "baseAtlas": "pets/one-piece/law/spritesheet.webp",
+  "workAtlas": "work/v2-runs/law-identity/final/spritesheet-extended.webp",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "chromaDespill": {
+    "ok": true,
+    "changedPixels": 185124
+  },
+  "continuity": {
+    "ok": true,
+    "reviewRequired": true,
+    "warningCount": 13
+  },
+  "semanticReview": "work/v2-runs/law-identity/qa/direction-semantics.json",
+  "notes": [
+    "Rows 0-8 are preserved from the official v1 pet.",
+    "Rows 9-10 reuse original cells for an identity-preserving V2 upgrade.",
+    "Atlas passes validate_atlas.py --require-v2 after deterministic despill."
+  ]
+}

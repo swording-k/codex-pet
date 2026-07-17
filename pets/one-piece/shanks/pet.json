@@ -2,5 +2,6 @@
   "id": "shanks",
   "displayName": "Shanks",
   "description": "A chibi Red-Haired Shanks Codex desktop pet with red hair, black cape, sword-ready stance, and calm powerful animations.",
-  "spritesheetPath": "spritesheet.webp"
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2
 }

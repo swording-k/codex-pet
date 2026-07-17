@@ -2,5 +2,6 @@
   "id": "law",
   "displayName": "Law",
   "description": "A chibi Trafalgar Law Codex desktop pet with spotted hat, black-yellow outfit, sword poses, and calm tactical animations.",
-  "spritesheetPath": "spritesheet.webp"
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2
 }

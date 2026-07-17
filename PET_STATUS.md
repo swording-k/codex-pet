@@ -26,14 +26,14 @@ This file tracks the requested end state: all SpongeBob series pets completed, a
 | Pet | Status | Notes |
 | --- | --- | --- |
 | Codex Buddy | v2 | Published atlas passes `validate_atlas.py --require-v2`; install path was validated. |
-| Luffy | identity-candidate | Official pet remains coherent v1; `work/v2-runs/luffy-identity` has a structurally valid identity-preserving V2 candidate with direction warnings. |
-| Zoro | identity-candidate | Official pet remains coherent v1; `work/v2-runs/zoro-identity` has a structurally valid identity-preserving V2 candidate with direction warnings. |
-| Sanji | v1 | Needs v2 look-direction upgrade. |
-| Nami | v1 | Needs v2 look-direction upgrade. |
-| Law | v1 | Needs v2 look-direction upgrade. |
-| Robin | v1 | Needs v2 look-direction upgrade. |
-| Ace | v1 | Needs v2 look-direction upgrade. |
-| Shanks | v1 | Needs v2 look-direction upgrade. |
-| Uta | v1 | Needs v2 look-direction upgrade. |
-| Chopper | v1 | Needs v2 look-direction upgrade. |
-| Usopp | v1 | Needs v2 look-direction upgrade. |
+| Luffy | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells to avoid redraw drift. |
+| Zoro | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells to avoid redraw drift. |
+| Sanji | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells. |
+| Nami | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells. |
+| Law | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells. |
+| Robin | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells. |
+| Ace | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells. |
+| Shanks | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells. |
+| Uta | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells. |
+| Chopper | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells. |
+| Usopp | v2 | Published identity-first V2 atlas; original rows preserved and look rows reuse original cells. |
