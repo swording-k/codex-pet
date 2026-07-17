@@ -1,0 +1,30 @@
+{
+  "petId": "zoro",
+  "reviewedAt": "2026-07-17",
+  "result": "pass",
+  "notes": [
+    "Rows 9 and 10 contain 16 distinct look-direction frames rather than copied idle frames.",
+    "The right half-circle was generated from the contact-sheet reference and registered to the base atlas geometry.",
+    "The left half-circle was mirrored from the approved right half-circle to keep direction semantics reliable.",
+    "The 180-degree down frame is a generated downward-looking pose.",
+    "Continuity metrics report transparent rows near the feet; visual QA confirms these are natural stance gaps, not broken holes."
+  ],
+  "directions": {
+    "000": "front-facing upward look",
+    "022.5": "up-right",
+    "045": "diagonal up-right",
+    "067.5": "mostly right with slight upward tilt",
+    "090": "right",
+    "112.5": "right with slight downward tilt",
+    "135": "diagonal down-right",
+    "157.5": "mostly down-right",
+    "180": "down",
+    "202.5": "mostly down-left",
+    "225": "diagonal down-left",
+    "247.5": "left with slight downward tilt",
+    "270": "left",
+    "292.5": "left with slight upward tilt",
+    "315": "diagonal up-left",
+    "337.5": "mostly up-left"
+  }
+}
